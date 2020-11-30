@@ -15,8 +15,8 @@ MACHINE = default
 
 #-------------------  default definitions  -------------------------------------
 
-CC  = @CC@
-LDR = @CC@
+CC  = gcc
+LDR = gcc
 OPT = @COMPILER_OPTS@
 CUSTLIBS =
 MPIINC =
@@ -108,8 +108,8 @@ ifeq ($(MACHINE),macosx)
   OPT = -O3 
   FFTWLIB = -L/opt/local/lib -lfftw3
   FFTWINC = -I/opt/local/include
-else
-  abort Unsupported MACHINE=$(MACHINE)
+#else
+#  abort Unsupported MACHINE=$(MACHINE)
 endif
 endif
 endif

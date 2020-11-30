@@ -1,5 +1,8 @@
+bin/
 Makefile
 Makeoptions
+Makeoptions.in
+Makedepend
 *.o
 problem.c
 autom4te.cache/
