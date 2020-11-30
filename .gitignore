@@ -1,0 +1,11 @@
+Makefile
+Makeoptions
+*.o
+problem.c
+autom4te.cache/
+config.log
+config.status
+src/defs.h
+src/config.h
+configure
+conf.sh
